@@ -1,0 +1,20 @@
+{
+  "name": "@lottojs/ts-config",
+  "version": "0.1.0",
+  "description": "Simple typescript configuration library.",
+  "author": "Pedro Harbs <harbspj@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "lottojs",
+    "typescript",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lottojs/ts-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lottojs/ts-config/issues"
+  },
+  "homepage": "https://github.com/lottojs/ts-config#readme"
+}
