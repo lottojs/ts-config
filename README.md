@@ -44,12 +44,12 @@ Basic typescript configuration package with common settings in order to help as 
 ### Usage
 Create a `tsconfig.json` file at the root of your project.
 ```json
-   {
+    {
         "extends": "@lottojs/ts-config/base.json",
         "compilerOptions": {
             "outDir": "dist",
         }
-   }
+    }
 ```
 
 ## License
