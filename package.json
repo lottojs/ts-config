@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/lottojs/ts-config/issues"
   },
-  "homepage": "https://github.com/lottojs/ts-config#readme"
+  "homepage": "https://github.com/lottojs/ts-config#readme",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "git-commit-msg-linter": "^5.0.4",
+    "husky": "^8.0.3",
+    "validate-branch-name": "^1.3.0"
+  },
+  "validate-branch-name": {
+    "pattern": "^(master|main|develop){1}$|^(feat|fix|imp|release)/.+$"
+  }
 }
